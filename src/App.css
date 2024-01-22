@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.App{
+    text-align: center;
+}
+.items-active{
+    background-color: maroon;
+    color: white;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+.items-all{
+    background-color: cornsilk;
+    /* color: white; */
+
+}
+.main{
+padding: 10px;
+background-color: cornsilk;
+border: 1px solid ;
+cursor: pointer;
+font-size: large;
+font-weight: 500;
+font-style: italic;
+border-radius: 15px;
+
+}

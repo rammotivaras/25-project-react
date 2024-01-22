@@ -1,0 +1,89 @@
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: maroon;
+    background-color: #E77889;
+    padding: 10px;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: large;
+    margin-top: 10px;
+}
+.btn-i{
+    height: 40px ;
+    width: 80px;
+   margin-top: 7px;
+   cursor: pointer;
+   background-color: green;
+   color: #fff;
+   font-size: larger;
+   font-weight: bolder;
+   border: none;
+   border-radius: 5px;
+
+}
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.table-i {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-i th, .table-i td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table-i th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-i tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-i tbody tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Optional: Style for buttons */
+  .table-i button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  /* Optional: Style for main header and input fields */
+  /* .main-header {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .main-header input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  /* Optional: Style for the whole component */
+ /* .CrudApplication {
+    max-width: 800px;
+    margin: 0 auto;
+ } */
+  
